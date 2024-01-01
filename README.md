@@ -10,7 +10,7 @@
 
 💡 In this ever-evolving tech landscape, I am on a perpetual quest for knowledge, seeking to expand my skill set and contribute meaningfully to the tech community. Let's connect, collaborate, and code our way to the future! 🚀✨
 
-#CodeDreams #DataScience #TechEnthusiast #Python #CProgramming #FrontEndDeveloper
+
 
 <!---
 aryangiri03/aryangiri03 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
