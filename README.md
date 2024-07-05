@@ -17,13 +17,13 @@
 
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=programmer-03&label=Profile%20views&color=0e75b6&style=flat" alt="programmer-03" /> </p>
 
-  - 🌱 I’m currently learning Java, SQL
+  - 🌱 I’m currently learning Data Science
 
   - 👨‍💻 All of my projects are available at [my Github](https://github.com/programmer-03)
 
-  - 💬 Ask me about **Python & C Programming, Web Technology**
+  - 💬 Ask me about **Python & C Programming, Web Technology, SQL, Machine Learning**
 
-  - 📫 Reach out to me through [my email](https://engineeringstudies247@gmail.com)
+  - 📫 Reach out to me through [my email](https://aaryanmgiri@gmail.com)
 
   - ⚡ Fun fact **By day, I'm a code maestro weaving Python and C spells; by night, a tech geek sculpting digital wonders and unleashing magic in the tech cosmos! 🌟**
 
