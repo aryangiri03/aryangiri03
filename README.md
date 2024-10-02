@@ -23,7 +23,7 @@
 
   - 💬 Ask me about **Python & C Programming, Web Technology, SQL, Machine Learning**
 
-  - 📫 Reach out to me through [my email](https://aaryanmgiri@gmail.com)
+  - 📫 Reach out to me by Tapping [👆🏻 here](https://aaryanmgiri@gmail.com)
 
   - ⚡ Fun fact **By day, I'm a code maestro weaving Python and C spells; by night, a tech geek sculpting digital wonders and unleashing magic in the tech cosmos! 🌟**
 
