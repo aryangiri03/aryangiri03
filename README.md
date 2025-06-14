@@ -1,6 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
   <h1 align="center">Hello World! 👋, I'm Aryan Giri</h1>
-  <h3 align="justify"> A passionate Third Year Computer Engineering student with a flair for technology and a heart for innovation. 🚀 <p>
+  <h3 align="justify"> A passionate Last Year Computer Engineering student with a flair for technology and a heart for innovation. 🚀 <p>
 
 🧠 As a Data Science enthusiast, I dive into the world of data to unravel insights and create meaningful stories. My curiosity knows no bounds when it comes to exploring the vast realms of data analytics and machine learning.
 
