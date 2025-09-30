@@ -1,53 +1,47 @@
-![Banner](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
+![logo](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
+
+<h1 align="center">Hello World! 👋, I'm Aryan Giri</h1>
 
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Data+Science+Enthusiast;ML+Engineer;AI+Explorer;Python+Developer;Tech+Innovator" alt="Typing SVG" />
+</div>
 
-# 🚀 Hello World! 👋 I'm Aryan Giri
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Data+Science+Enthusiast;ML+Engineer;AI+Explorer;Python+Developer;Tech+Innovator" alt="Typing SVG" />
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300" alt="Coding Animation">
-
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="600" height="300"/>
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> **About Me**
+### 🧠 **About Me**
 
 ```python
 class DataScientist:
     def __init__(self):
         self.name = "Aryan Giri"
         self.role = "Final Year Computer Engineering Student"
-        self.passion = "Transforming Data into Intelligent Solutions"
-        self.focus_areas = ["Machine Learning", "Deep Learning", "Computer Vision", "NLP"]
-        
-    @property
-    def tech_stack(self):
-        return {
-            'languages': ['Python', 'C', 'SQL', 'R'],
-            'ml_frameworks': ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Keras'],
-            'data_tools': ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
-            'visualization': ['Tableau', 'Plotly', 'Power BI'],
-            'tools': ['Git', 'Docker', 'AWS', 'Jupyter']
-        }
+        self.passion = "Data Science & Machine Learning"
+        self.languages = ["Python", "C", "SQL", "R"]
+        self.ml_stack = ["Scikit-learn", "TensorFlow", "PyTorch", "Keras"]
+        self.data_tools = ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+        self.visualization = ["Tableau", "Power BI", "Plotly"]
+        self.interests = ["Deep Learning", "Computer Vision", "NLP", "AI Research"]
     
-    def mission(self):
-        return "Building intelligent systems that learn, adapt, and transform our world 🤖"
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build intelligent systems together 🤖")
 
 me = DataScientist()
-print(me.mission())
+me.say_hi()
 ```
 
 ---
 
-## <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCmY/giphy.gif" width="40"> **Tech Stack & Tools**
+### 🛠️ **Tech Stack & Tools**
 
-### 🤖 Machine Learning & AI
+#### 🤖 Machine Learning & AI
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoWidth=30)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -55,7 +49,7 @@ print(me.mission())
 
 </div>
 
-### 📊 Data Science Ecosystem
+#### 📊 Data Science Ecosystem
 
 <div align="center">
 
@@ -67,7 +61,7 @@ print(me.mission())
 
 </div>
 
-### 💻 Development & Infrastructure
+#### 💻 Programming & Development
 
 <div align="center">
 
@@ -81,73 +75,61 @@ print(me.mission())
 
 ---
 
-## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="40"> **GitHub Analytics**
+### 📈 **GitHub Analytics**
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&theme=radical&count_private=true&hide_border=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=aryangiri03&theme=radical&hide_border=true" />
+</div>
+
+<div align="center">
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryangiri03&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+</div>
+
+---
+
+### 🚀 **Featured Projects**
+
+#### 🤖 ML Model Zoo
+> Collection of machine learning models and experiments
+
+```bash
+⭐ 150+ stars | 🍴 45+ forks
+```
+![ML](https://img.shields.io/badge/%F0%9F%94%AC-Machine%20Learning-blueviolet)
+
+#### 📊 Data Visualization Dashboard
+> Interactive dashboards for complex data insights
+
+```bash
+🚀 Live Demo | 📈 Real-time Analytics
+```
+![Data Viz](https://img.shields.io/badge/%F0%9F%93%8A-Data%20Visualization-success)
+
+#### 🧠 Neural Network Playground
+> Experiments with various neural architectures
+
+```bash
+🧪 Experimental | 🔍 Research Grade
+```
+![Deep Learning](https://img.shields.io/badge/%F0%9F%A7%A0-Deep%20Learning-important)
+
+---
+
+### 🌟 **Currently Exploring**
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=aryangiri03&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryangiri03&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0D1117" alt="Top Languages" />
-    </td>
-  </tr>
-</table>
+![Transformers](https://img.shields.io/badge/%F0%9F%A4%96-Transformer%20Architectures-yellow)
+![Computer Vision](https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F-Computer%20Vision-blue)
+![RL](https://img.shields.io/badge/%F0%9F%8E%AE-Reinforcement%20Learning-green)
+![MLOps](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-MLOps-orange)
 
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="40"> **Featured Projects**
-
-### 🤖 ML Model Zoo
-> Advanced collection of machine learning models and experimental architectures
-
-```bash
-🔬 Research | 🧠 Deep Learning | 📈 High Performance
-```
-![ML](https://img.shields.io/badge/%F0%9F%A4%96-Machine%20Learning-blueviolet?style=for-the-badge)
-
-### 📊 Intelligent Data Visualization
-> AI-powered dashboards with predictive analytics and real-time insights
-
-```bash
-🚀 Live Analytics | 🤖 AI-Driven | 📊 Interactive
-```
-![Smart Viz](https://img.shields.io/badge/%F0%9F%93%8A-Smart%20Visualization-success?style=for-the-badge)
-
-### 🧠 Neural Architecture Search
-> Automated discovery of optimal neural network structures
-
-```bash
-🧪 Cutting-Edge | 🔍 Research Grade | ⚡ Optimized
-```
-![Neural Search](https://img.shields.io/badge/%F0%9F%A7%A0-Neural%20Search-important?style=for-the-badge)
-
----
-
-## <img src="https://media.giphy.com/media/l0HU7JI1m1eEwz7K8/giphy.gif" width="40"> **Currently Exploring**
-
-<div align="center">
-
-![Transformers](https://img.shields.io/badge/%F0%9F%A4%96-Transformer%20Models-yellow?style=flat-square)
-![Computer Vision](https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F-Computer%20Vision-blue?style=flat-square)
-![RL](https://img.shields.io/badge/%F0%9F%8E%AE-Reinforcement%20Learning-green?style=flat-square)
-![MLOps](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-MLOps-orange?style=flat-square)
-![GenAI](https://img.shields.io/badge/%F0%9F%8E%A8-Generative%20AI-purple?style=flat-square)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif" width="40"> **Connect With Me**
+### 📫 **Let's Connect & Collaborate**
 
 <div align="center">
 
@@ -161,28 +143,24 @@ print(me.mission())
 
 ---
 
-## <img src="https://media.giphy.com/media/xiOgHgY6ce1mPDODVP/giphy.gif" width="40"> **GitHub Activity**
+### 🎯 **GitHub Activity**
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aryangiri03&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&area_color=00F7FF" width="100%"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aryangiri03&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/LMcB8XospGZO8UQq87/giphy.gif" width="40"> **Fun Fact**
+### 💡 **Fun Fact**
 
-> "I speak in Python during the day and dream in neural networks at night! When I'm not training models, I'm probably debugging why my accuracy dropped by 0.001% or exploring the latest AI research papers with a cup of coffee ☕"
+> "I speak in Python during the day and dream in neural networks at night! When I'm not training models, I'm probably debugging why my accuracy dropped by 0.001% 😅"
 
 ---
 
 ### ⚡ **Daily Dev Motto**
 
 <div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </div>
 
 ---
@@ -199,9 +177,8 @@ print(me.mission())
 
 <div align="center">
 
-### **Thanks for visiting!**
-### Remember: Every great model was once just a random seed 🌱
+### Thanks for visiting! Remember: Every great model was once just a random seed 🌱
 
-![Profile Views](https://komarev.com/ghpvc/?username=aryangiri03&label=Profile%20Views&color=00F7FF&style=flat)
+![Profile Views](https://komarev.com/ghpvc/?username=aryangiri03&label=Profile%20Views&color=0e75b6&style=flat)
 
 </div>
