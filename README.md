@@ -14,7 +14,9 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> **About Me**
 
-```python
+
+
+
 class DataScientist:
     def __init__(self):
         self.name = "Aryan Giri"
