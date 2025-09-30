@@ -1,359 +1,121 @@
+![logo](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
+
+<h1 align="center">
+  <div class="glitch-wrapper">
+    <div class="glitch" data-text="Hello World! 👋, I'm Aryan Giri">Hello World! 👋, I'm Aryan Giri</div>
+  </div>
+</h1>
+
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ARYAN%20GIRI&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20AI%20Enthusiast&descAlignY=55&descAlign=50&descSize=18"/>
-
-<img src="https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif" width="200px">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7F7&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=AI+%7C+ML+%7C+Data+Science;Turning+Data+into+Insights+%F0%9F%A7%A0;Building+Intelligent+Systems+%F0%9F%A4%96;Code+%2B+Coffee+%3D+Innovation+%E2%98%95)](https://git.io/typing-svg)
-
-<p>
-<img src="https://komarev.com/ghpvc/?username=aryangiri03&label=VIEWS&color=blueviolet&style=for-the-badge" alt="views"/>
-<img src="https://img.shields.io/github/followers/aryangiri03?label=FOLLOWERS&style=for-the-badge&color=blue" alt="followers"/>
-<img src="https://img.shields.io/github/stars/aryangiri03?label=STARS&style=for-the-badge&color=yellow" alt="stars"/>
-</p>
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Data+Science+Enthusiast;ML+Engineer;AI+Explorer;Python+Developer;Tech+Innovator" alt="Typing SVG" />
 </div>
 
-```ascii
-                      ╔═════════════════════════════════════════════════════════════════════════════════════════════════╗
-                      ║                                                                                                 ║
-                      ║   ██████╗  █████╗ ████████╗ █████╗     ███████╗ ██████╗██╗███████╗███╗   ██╗  ██████╗ ███████╗  ║
-                      ║   ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗    ██╔════╝██╔════╝██║██╔════╝████╗  ██║ ██╔      ██╔════╝  ║
-                      ║   ██║  ██║███████║   ██║   ███████║    ███████╗██║     ██║█████╗  ██╔██╗ ██║ ██╔      █████╗    ║
-                      ║   ██║  ██║██╔══██║   ██║   ██╔══██║    ╚════██║██║     ██║██╔══╝  ██║╚██╗██║ ██╔      ██╔══╝    ║
-                      ║   ██████╔╝██║  ██║   ██║   ██║  ██║    ███████║╚██████╗██║███████╗██║ ╚████║ ╚██████╗ ███████╗  ║
-                      ║   ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝    ╚══════╝ ╚═════╝╚═╝╚══════╝╚═╝  ╚═══╝  ╚═════╝ ╚══════╝  ║
-                      ║                                                                                                 ║
-                      ╚═════════════════════════════════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="600" height="300"/>
+</div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
-## 🧬 `whoami`
-
-<img align="right" alt="AI" width="350" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47y55lbzk2r7co88iy6b21ywwekg9ip4hy1uudpsu1&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+### 🧠 **About Me**
 
 ```python
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 class DataScientist:
     def __init__(self):
         self.name = "Aryan Giri"
-        self.role = "Data Scientist & ML Engineer"
-        self.education = "B.Tech Computer Engineering (Final Year)"
-        self.location = "Maharashtra, India 🇮🇳"
-        self.passion = "Transforming Data → Intelligence"
+        self.role = "Final Year Computer Engineering Student"
+        self.passion = "Data Science & Machine Learning"
+        self.languages = ["Python", "C", "SQL", "R"]
+        self.ml_stack = ["Scikit-learn", "TensorFlow", "PyTorch", "Keras"]
+        self.data_tools = ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+        self.visualization = ["Tableau", "Power BI", "Plotly"]
+        self.interests = ["Deep Learning", "Computer Vision", "NLP", "AI Research"]
     
-    def get_expertise(self):
-        return {
-            "core": ["Data Science", "Machine Learning", "AI"],
-            "languages": ["Python", "C", "C++", "SQL"],
-            "ml_frameworks": ["TensorFlow", "Scikit-learn", "PyTorch"],
-            "data_tools": ["Pandas", "NumPy", "Matplotlib", "Seaborn"],
-            "specialization": ["Deep Learning", "NLP", "Computer Vision"],
-            "cloud": ["AWS", "Google Cloud"],
-            "databases": ["MySQL", "PostgreSQL", "MongoDB"]
-        }
-    
-    def current_focus(self):
-        return [
-            "🎯 Advanced Machine Learning Algorithms",
-            "🧠 Deep Learning & Neural Networks",
-            "📊 Big Data Analytics",
-            "🤖 AI Model Optimization",
-            "🔬 Research & Innovation"
-        ]
-    
-    def fun_fact(self):
-        return "I debug my code more than I debug my life 🐛💻"
+    def say_hi(self):
+        print("Thanks for dropping by! Let's build intelligent systems together 🤖")
 
 me = DataScientist()
-print("Ready to solve real-world problems with AI! 🚀")
-```
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 🎯 Current Mission
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔬 Research & Learning
-```yaml
-focus:
-  - Deep Learning Architectures
-  - Neural Network Optimization
-  - Advanced Statistical Methods
-  - MLOps & Model Deployment
-  - Big Data Processing
-```
-
-</td>
-<td width="50%">
-
-### 💡 Building
-```yaml
-projects:
-  - AI-powered solutions
-  - Predictive models
-  - Data visualization dashboards
-  - ML pipelines
-  - Automated analysis tools
-```
-
-</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 🛠️ Tech Arsenal
-
+me.say_hi()
+🛠️ Tech Stack & Tools
+🤖 Machine Learning & AI
 <div align="center">
-
-### 💎 Core Technologies
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-<br><strong>Python</strong>
-</td>
-<td align="center" width="25%">
-<img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
-<br><strong>C/C++</strong>
-</td>
-<td align="center" width="25%">
-<img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="SQL" width="65" height="65" />
-<br><strong>SQL</strong>
-</td>
-<td align="center" width="25%">
-<img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-<br><strong>AWS</strong>
-</td>
-</tr>
-</table>
-
-### 🤖 AI/ML Stack
-
-<p>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
-</p>
-
-### 📊 Data Visualization & Analytics
-
-<p>
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-</p>
-
-### 🗄️ Databases & Big Data
-
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-</p>
-
-### ⚙️ Development Tools
-
-<p>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-</p>
-
-### 🌐 Bonus Skills
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
-</p>
+https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
+https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
+https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
+https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
+https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 📈 GitHub Analytics
-
+📊 Data Science Ecosystem
 <div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=aryangiri03&theme=radical&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6D00&currStreakLabel=00F7F7&sideLabels=FFFFFF&dates=8B8B8B" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryangiri03&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF&langs_count=10" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=aryangiri03&custom_title=Contribution%20Graph&bg_color=0D1117&color=00F7F7&line=00F7F7&point=FF6D00&area_color=0D1117&area=true&hide_border=true&height=300" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aryangiri03&theme=radical" width="98%" />
+https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
+https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white
+https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white
+https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white
+https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 🏆 Achievements
-
+💻 Programming & Development
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=aryangiri03&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" />
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=aryangiri03&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" width="60%" />
+https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black
+https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white
+https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white
+https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white
 
 </div>
+📈 GitHub Analytics
+<div align="center"> <img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&theme=radical&count_private=true&hide_border=true" /> <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=aryangiri03&theme=radical&hide_border=true" /> </div><div align="center"> <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryangiri03&layout=compact&theme=radical&hide_border=true&langs_count=8" /> </div>
+🚀 Featured Projects
+🤖 ML Model Zoo
+Collection of machine learning models and experiments
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+bash
+⭐ 150+ stars | 🍴 45+ forks
+https://img.shields.io/badge/%F0%9F%94%AC-Machine%2520Learning-blueviolet
 
-## 🎨 Contribution Snake
+📊 Data Visualization Dashboard
+Interactive dashboards for complex data insights
 
+bash
+🚀 Live Demo | 📈 Real-time Analytics
+https://img.shields.io/badge/%F0%9F%93%8A-Data%2520Visualization-success
+
+🧠 Neural Network Playground
+Experiments with various neural architectures
+
+bash
+🧪 Experimental | 🔍 Research Grade
+https://img.shields.io/badge/%F0%9F%A7%A0-Deep%2520Learning-important
+
+🌟 Currently Exploring
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aryangiri03/aryangiri03/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aryangiri03/aryangiri03/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/aryangiri03/aryangiri03/output/github-contribution-grid-snake.svg">
-</picture>
+https://img.shields.io/badge/%F0%9F%A4%96-Transformer%2520Architectures-yellow
+https://img.shields.io/badge/%F0%9F%91%81%EF%B8%8F-Computer%2520Vision-blue
+https://img.shields.io/badge/%F0%9F%8E%AE-Reinforcement%2520Learning-green
+https://img.shields.io/badge/%E2%9A%99%EF%B8%8F-MLOps-orange
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 💬 Ask Me About
-
+📫 Let's Connect & Collaborate
 <div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### 🐍 Python Programming
-Data structures, algorithms, <br>OOP, scripting, automation
-
-</td>
-<td align="center" width="33%">
-
-### 🤖 Machine Learning
-Supervised, unsupervised,<br> deep learning, model deployment
-
-</td>
-<td align="center" width="33%">
-
-### 📊 Data Analytics
-EDA, visualization, statistical<br> analysis, predictive modeling
-
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-
-### 🗄️ SQL & Databases
-Query optimization, database<br> design, data warehousing
-
-</td>
-<td align="center" width="33%">
-
-### 🧮 Mathematics
-Linear algebra, calculus,<br> probability, statistics
-
-</td>
-<td align="center" width="33%">
-
-### ☁️ Cloud & MLOps
-AWS, model serving,<br> CI/CD for ML, Docker
-
-</td>
-</tr>
-</table>
+https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white
+https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/aryan-giri-852a0a259)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aryangiri03)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aaryanmgiri@gmail.com)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/23186353/aryan-giri)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/aryangiri03)
-[![Replit](https://img.shields.io/badge/Replit-667881?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@engineeringstu3)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/aryangiri03)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/aryangiri03)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 💭 Dev Wisdom
+🎯 GitHub Activity
+<!-- GitHub Activity Graph --><div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=aryangiri03&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/> </div>
+💡 Fun Fact
+"I speak in Python during the day and dream in neural networks at night! When I'm not training models, I'm probably debugging why my accuracy dropped by 0.001% 😅"
 
 <div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-## 📊 Detailed Stats
-
-<details>
-<summary><b>📈 Expand for More Stats</b></summary>
-<br>
-
+⚡ Daily Dev Motto
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" /></div>
 <div align="center">
+https://github.com/aryangiri03/aryangiri03/blob/output/github-contribution-grid-snake.svg
 
-### Languages Used (Detailed)
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryangiri03&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" width="45%" />
+Thanks for visiting! Remember: Every great model was once just a random seed 🌱
 
-### Productive Time
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=aryangiri03&theme=radical" width="45%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=aryangiri03&theme=radical" width="45%" />
-
-### Commit Stats
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=aryangiri03&theme=radical" width="45%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=aryangiri03&theme=radical" width="45%" />
-
-</div>
-
-</details>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
-<div align="center">
-
-### 🎯 "Turning data into decisions, one algorithm at a time"
-
-### 🚀 Open for Collaboration | 💼 Available for Projects | 🤝 Let's Build Something Amazing!
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=20&fontColor=fff&animation=twinkling&fontAlignY=75"/>
-
-**Made with 💙 by Aryan | Data Scientist & ML Engineer**
-
-![](https://hit.yhype.me/github/profile?user_id=90236635)
-
-</div>
+<img src="https://komarev.com/ghpvc/?username=aryangiri03&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" /></div><style> .glitch { position: relative; color: white; font-size: 4em; letter-spacing: 0.5em; animation: glitch-skew 1s infinite linear alternate-reverse; } .glitch::before { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: 2px; text-shadow: -2px 0 #ff00c1; clip: rect(44px, 450px, 56px, 0); animation: glitch-anim 5s infinite linear alternate-reverse; } .glitch::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; left: -2px; text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1; animation: glitch-anim2 1s infinite linear alternate-reverse; } @keyframes glitch-anim { 0% { clip: rect(31px, 9999px, 94px, 0); } 5% { clip: rect(73px, 9999px, 25px, 0); } 10% { clip: rect(9px, 9999px, 35px, 0); } 15% { clip: rect(37px, 9999px, 19px, 0); } 20% { clip: rect(97px, 9999px, 93px, 0); } 25% { clip: rect(6px, 9999px, 85px, 0); } 30% { clip: rect(97px, 9999px, 47px, 0); } 35% { clip: rect(29px, 9999px, 10px, 0); } 40% { clip: rect(64px, 9999px, 40px, 0); } 45% { clip: rect(62px, 9999px, 69px, 0); } 50% { clip: rect(84px, 9999px, 7px, 0); } 55% { clip: rect(40px, 9999px, 50px, 0); } 60% { clip: rect(25px, 9999px, 67px, 0); } 65% { clip: rect(73px, 9999px, 35px, 0); } 70% { clip: rect(84px, 9999px, 25px, 0); } 75% { clip: rect(14px, 9999px, 40px, 0); } 80% { clip: rect(27px, 9999px, 33px, 0); } 85% { clip: rect(84px, 9999px, 26px, 0); } 90% { clip: rect(83px, 9999px, 95px, 0); } 95% { clip: rect(11px, 9999px, 46px, 0); } 100% { clip: rect(91px, 9999px, 100px, 0); } } @keyframes glitch-anim2 { 0% { clip: rect(65px, 9999px, 100px, 0); } 5% { clip: rect(52px, 9999px, 74px, 0); } 10% { clip: rect(79px, 9999px, 85px, 0); } 15% { clip: rect(75px, 9999px, 5px, 0); } 20% { clip: rect(67px, 9999px, 61px, 0); } 25% { clip: rect(14px, 9999px, 79px, 0); } 30% { clip: rect(1px, 9999px, 66px, 0); } 35% { clip: rect(86px, 9999px, 30px, 0); } 40% { clip: rect(23px, 9999px, 98px, 0); } 45% { clip: rect(85px, 9999px, 72px, 0); } 50% { clip: rect(71px, 9999px, 75px, 0); } 55% { clip: rect(2px, 9999px, 48px, 0); } 60% { clip: rect(30px, 9999px, 16px, 0); } 65% { clip: rect(59px, 9999px, 69px, 0); } 70% { clip: rect(41px, 9999px, 62px, 0); } 75% { clip: rect(2px, 9999px, 60px, 0); } 80% { clip: rect(47px, 9999px, 71px, 0); } 85% { clip: rect(75px, 9999px, 45px, 0); } 90% { clip: rect(12px, 9999px, 59px, 0); } 95% { clip: rect(58px, 9999px, 85px, 0); } 100% { clip: rect(44px, 9999px, 99px, 0); } } @keyframes glitch-skew { 0% { transform: skew(0deg); } 10% { transform: skew(2deg); } 20% { transform: skew(0deg); } 30% { transform: skew(-2deg); } 40% { transform: skew(0deg); } 50% { transform: skew(1deg); } 60% { transform: skew(0deg); } 70% { transform: skew(-1deg); } 80% { transform: skew(0deg); } 90% { transform: skew(0.5deg); } 100% { transform: skew(0deg); } } </style>
+text
