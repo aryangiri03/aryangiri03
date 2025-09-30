@@ -1,47 +1,265 @@
-![logo](https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif)
-  <h1 align="center">Hello World! 👋, I'm Aryan Giri</h1>
-  <h3 align="justify"> A passionate Final Year Computer Engineering student with a flair for technology and a heart for innovation. 🚀 <p>
+import React, { useState, useEffect } from 'react';
+import { Github, Linkedin, Code2, Database, Brain, Rocket, Mail, Zap, Star, Terminal, Coffee } from 'lucide-react';
 
-🧠 As a Data Science enthusiast, I dive into the world of data to unravel insights and create meaningful stories. My curiosity knows no bounds when it comes to exploring the vast realms of data analytics and machine learning.
+export default function FuturisticReadme() {
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [currentFact, setCurrentFact] = useState(0);
 
-💻 Tech is not just a part of my life; it's my lifestyle. I am always on the lookout for the latest in the tech world, eager to embrace new challenges and learn new technologies that push the boundaries of what's possible.
+  const facts = [
+    "Code maestro weaving Python & C spells 🐍",
+    "Tech geek sculpting digital wonders 🌟",
+    "Unleashing magic in the tech cosmos! ✨",
+    "Data whisperer turning chaos into insights 📊"
+  ];
 
-🚀 Proficient in C and Python programming, I wield the power of code to bring ideas to life. Whether it's solving complex problems, optimizing algorithms, or crafting efficient solutions, I thrive in the world of coding.
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentFact((prev) => (prev + 1) % facts.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
 
-🌐 On the front end, I am not just a spectator; I am an active creator. With a keen eye for design and a knack for user experience, I bring ideas to life through captivating and responsive front-end development.
+  const handleMouseMove = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
 
-💡 In this ever-evolving tech landscape, I am on a perpetual quest for knowledge, seeking to expand my skill set and contribute meaningfully to the tech community. Let's connect, collaborate, and code our way to the future! 🚀✨
+  const skills = [
+    { name: 'Python', icon: '🐍', color: 'from-blue-400 to-yellow-400', level: 95 },
+    { name: 'C/C++', icon: '⚡', color: 'from-purple-400 to-pink-400', level: 90 },
+    { name: 'JavaScript', icon: '💛', color: 'from-yellow-300 to-orange-400', level: 85 },
+    { name: 'Data Science', icon: '📊', color: 'from-green-400 to-cyan-400', level: 88 },
+    { name: 'Machine Learning', icon: '🤖', color: 'from-indigo-400 to-purple-500', level: 82 },
+    { name: 'Web Dev', icon: '🌐', color: 'from-pink-400 to-rose-400', level: 87 },
+  ];
 
-</h3>
-  <img align="right" alt="Coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47y55lbzk2r7co88iy6b21ywwekg9ip4hy1uudpsu1&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+  const tools = [
+    { name: 'AWS', logo: '☁️' },
+    { name: 'Git', logo: '📦' },
+    { name: 'Flutter', logo: '📱' },
+    { name: 'Tailwind', logo: '🎨' },
+    { name: 'SQL', logo: '🗃️' },
+    { name: 'Figma', logo: '🎭' },
+  ];
 
-  <p align="left"> <img src="https://komarev.com/ghpvc/?username=aryangiri03&label=Profile%20views&color=0e75b6&style=flat" alt="aryangiri03" /> </p>
+  return (
+    <div 
+      className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white overflow-hidden relative"
+      onMouseMove={handleMouseMove}
+    >
+      {/* Animated background grid */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'linear-gradient(rgba(139, 92, 246, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(139, 92, 246, 0.3) 1px, transparent 1px)',
+          backgroundSize: '50px 50px',
+          animation: 'gridMove 20s linear infinite'
+        }}></div>
+      </div>
 
-  - 🌱 I’m currently learning Data Science
+      {/* Floating particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-2 h-2 bg-purple-400 rounded-full animate-pulse"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animation: `float ${5 + Math.random() * 10}s ease-in-out infinite`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          ></div>
+        ))}
+      </div>
 
-  - 👨‍💻 All of my projects are available at [my Github](https://github.com/aryangiri03)
+      <div className="relative z-10 container mx-auto px-4 py-12 max-w-6xl">
+        {/* Hero Section */}
+        <div className="text-center mb-16 relative">
+          <div className="inline-block mb-6 relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-2xl opacity-50 animate-pulse"></div>
+            <img 
+              src="https://user-images.githubusercontent.com/90236635/232446433-d5540fa2-fe28-4bb8-b929-cdb51fe61336.gif" 
+              alt="Logo"
+              className="relative w-32 h-32 mx-auto rounded-full border-4 border-purple-500 shadow-2xl"
+            />
+          </div>
+          
+          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
+            Aryan Giri
+          </h1>
+          
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <Terminal className="text-cyan-400 animate-bounce" />
+            <p className="text-2xl text-purple-300 font-semibold">Full Stack Developer & Data Scientist</p>
+            <Rocket className="text-pink-400 animate-bounce" />
+          </div>
 
-  - 💬 Ask me about **Python & C Programming, Web Technology, SQL, Machine Learning**
+          <div className="h-8 flex items-center justify-center">
+            <p className="text-lg text-gray-300 italic transition-opacity duration-500">
+              {facts[currentFact]}
+            </p>
+          </div>
 
-  - 📫 Reach out to me by Tapping [👆🏻 here](https://aaryanmgiri@gmail.com)
+          <div className="flex justify-center gap-4 mt-6">
+            <img src="https://komarev.com/ghpvc/?username=aryangiri03&label=Profile%20views&color=blueviolet&style=for-the-badge" alt="views" className="animate-pulse" />
+          </div>
+        </div>
 
-  - ⚡ Fun fact **By day, I'm a code maestro weaving Python and C spells; by night, a tech geek sculpting digital wonders and unleashing magic in the tech cosmos! 🌟**
+        {/* About Section with Glassmorphism */}
+        <div className="mb-16 backdrop-blur-lg bg-white/5 rounded-3xl p-8 border border-purple-500/30 shadow-2xl hover:shadow-purple-500/50 transition-all duration-500 hover:scale-[1.02]">
+          <div className="flex items-center gap-3 mb-6">
+            <Brain className="text-pink-400 w-8 h-8" />
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              About Me
+            </h2>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6 text-gray-300">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3 hover:translate-x-2 transition-transform">
+                <Zap className="text-yellow-400 mt-1 flex-shrink-0" />
+                <p>Final Year Computer Engineering student passionate about technology and innovation</p>
+              </div>
+              <div className="flex items-start gap-3 hover:translate-x-2 transition-transform">
+                <Database className="text-cyan-400 mt-1 flex-shrink-0" />
+                <p>Data Science enthusiast diving deep into analytics and machine learning</p>
+              </div>
+              <div className="flex items-start gap-3 hover:translate-x-2 transition-transform">
+                <Code2 className="text-green-400 mt-1 flex-shrink-0" />
+                <p>Proficient in C and Python programming, bringing ideas to life through code</p>
+              </div>
+            </div>
+            <div className="flex items-center justify-center">
+              <img 
+                src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47y55lbzk2r7co88iy6b21ywwekg9ip4hy1uudpsu1&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                alt="Coding"
+                className="rounded-2xl shadow-2xl border-2 border-purple-500/50 hover:scale-105 transition-transform"
+              />
+            </div>
+          </div>
+        </div>
 
-  <h3 align="left">Connect with me:</h3>
-  <p align="left">
-  <a href="https://in.linkedin.com/in/aryan-giri-852a0a259" target="blank"><img align="center" src="https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="aryan giri" height="55" width="60" /></a> 
-  <a href="https://github.com/aryangiri03" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="aryan giri" height="40" width="40" /></a>
-  <a href="https://github.com/aryangiri03" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="aryan giri" height="40" width="40" /></a>
-  <a href="https://replit.com/@engineeringstu3" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/2048px-New_Replit_Logo.svg.png" alt="aryan giri" height="40" width="40" /></a>
-      <a href="https://auth.geeksforgeeks.org/user/aryangiri03" target="blank"><img align="center" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png" alt="aryan giri" height="40" width="40" /></a>
-  <a href="https://stackoverflow.com/users/23186353/aryan-giri?tab=profile" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="aryan giri" height="40" width="40" /></a>
-  </p>
+        {/* Skills Grid */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            Tech Arsenal
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {skills.map((skill, idx) => (
+              <div
+                key={skill.name}
+                className="backdrop-blur-lg bg-white/5 rounded-2xl p-6 border border-purple-500/30 hover:border-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50"
+                style={{ animationDelay: `${idx * 0.1}s` }}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-4xl">{skill.icon}</span>
+                  <h3 className="text-xl font-bold text-white">{skill.name}</h3>
+                </div>
+                <div className="w-full bg-gray-700 rounded-full h-3 overflow-hidden">
+                  <div
+                    className={`h-full bg-gradient-to-r ${skill.color} rounded-full transition-all duration-1000`}
+                    style={{ width: `${skill.level}%` }}
+                  ></div>
+                </div>
+                <p className="text-right text-sm text-gray-400 mt-2">{skill.level}%</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
-  <h3 align="left">Languages and Tools:</h3>
-  <p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://logohistory.net/wp-content/uploads/2023/06/AWS-Emblem.png"  width="60" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/964px-Bootstrap_logo.svg.png" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/c-1.svg"  width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png" width="30" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://static.vecteezy.com/system/resources/previews/027/127/560/original/javascript-logo-javascript-icon-transparent-free-png.png" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"  width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Photoshop_CC_icon.png/640px-Photoshop_CC_icon.png"width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"  width="90" height="50"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"  width="40" height="40"/> </a> </p>
+        {/* Tools Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">
+            Tools & Technologies
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            {tools.map((tool, idx) => (
+              <div
+                key={tool.name}
+                className="backdrop-blur-lg bg-white/5 rounded-xl px-6 py-4 border border-purple-500/30 hover:border-pink-500 transition-all hover:scale-110 hover:shadow-lg hover:shadow-pink-500/50 cursor-pointer"
+                style={{ animation: `float ${3 + idx * 0.5}s ease-in-out infinite` }}
+              >
+                <span className="text-3xl">{tool.logo}</span>
+                <p className="text-sm mt-2 text-gray-300">{tool.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
-  <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aryangiri03&show_icons=true&locale=en&layout=compact" alt="aryangiri03" /></p>
+        {/* Quick Facts */}
+        <div className="mb-16 grid md:grid-cols-2 gap-6">
+          <div className="backdrop-blur-lg bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-2xl p-6 border border-purple-500/30 hover:scale-105 transition-transform">
+            <Coffee className="text-yellow-400 mb-3" size={32} />
+            <h3 className="text-xl font-bold mb-2">Currently Learning</h3>
+            <p className="text-gray-300">Deep diving into Advanced Data Science & ML</p>
+          </div>
+          <div className="backdrop-blur-lg bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl p-6 border border-cyan-500/30 hover:scale-105 transition-transform">
+            <Mail className="text-pink-400 mb-3" size={32} />
+            <h3 className="text-xl font-bold mb-2">Ask Me About</h3>
+            <p className="text-gray-300">Python, C, Web Tech, SQL, Machine Learning</p>
+          </div>
+        </div>
 
-  <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&locale=en" alt="aryangiri03" /></p>
+        {/* Connect Section */}
+        <div className="mb-16 backdrop-blur-lg bg-white/5 rounded-3xl p-8 border border-purple-500/30">
+          <h2 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Let's Connect
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="https://in.linkedin.com/in/aryan-giri-852a0a259" target="_blank" rel="noopener noreferrer"
+               className="flex items-center gap-2 backdrop-blur-lg bg-blue-500/20 hover:bg-blue-500/40 px-6 py-3 rounded-xl border border-blue-500/50 hover:scale-110 transition-all">
+              <Linkedin /> LinkedIn
+            </a>
+            <a href="https://github.com/aryangiri03" target="_blank" rel="noopener noreferrer"
+               className="flex items-center gap-2 backdrop-blur-lg bg-gray-500/20 hover:bg-gray-500/40 px-6 py-3 rounded-xl border border-gray-500/50 hover:scale-110 transition-all">
+              <Github /> GitHub
+            </a>
+            <a href="mailto:aaryanmgiri@gmail.com"
+               className="flex items-center gap-2 backdrop-blur-lg bg-pink-500/20 hover:bg-pink-500/40 px-6 py-3 rounded-xl border border-pink-500/50 hover:scale-110 transition-all">
+              <Mail /> Email
+            </a>
+            <a href="https://stackoverflow.com/users/23186353/aryan-giri" target="_blank" rel="noopener noreferrer"
+               className="flex items-center gap-2 backdrop-blur-lg bg-orange-500/20 hover:bg-orange-500/40 px-6 py-3 rounded-xl border border-orange-500/50 hover:scale-110 transition-all">
+              <Star /> StackOverflow
+            </a>
+          </div>
+        </div>
 
-  <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aryangiri03&" alt="aryangiri03" /></p>
+        {/* GitHub Stats */}
+        <div className="grid md:grid-cols-2 gap-6 mb-16">
+          <div className="backdrop-blur-lg bg-white/5 rounded-2xl p-4 border border-purple-500/30 hover:scale-105 transition-transform">
+            <img src="https://github-readme-stats.vercel.app/api?username=aryangiri03&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="stats" className="w-full rounded-lg" />
+          </div>
+          <div className="backdrop-blur-lg bg-white/5 rounded-2xl p-4 border border-purple-500/30 hover:scale-105 transition-transform">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=aryangiri03&theme=radical&hide_border=true&background=0d1117" alt="streak" className="w-full rounded-lg" />
+          </div>
+        </div>
+
+        <div className="backdrop-blur-lg bg-white/5 rounded-2xl p-4 border border-purple-500/30 hover:scale-105 transition-transform">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aryangiri03&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&layout=compact" alt="languages" className="w-full rounded-lg" />
+        </div>
+
+        {/* Footer */}
+        <div className="text-center mt-16 text-gray-400">
+          <p className="text-sm">✨ Crafted with passion | Let's build the future together 🚀</p>
+        </div>
+      </div>
+
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% { transform: translateY(0px) translateX(0px); }
+          25% { transform: translateY(-20px) translateX(10px); }
+          50% { transform: translateY(-10px) translateX(-10px); }
+          75% { transform: translateY(-15px) translateX(5px); }
+        }
+        @keyframes gridMove {
+          0% { transform: translateY(0); }
+          100% { transform: translateY(50px); }
+        }
+      `}</style>
+    </div>
+  );
+}
