@@ -221,7 +221,7 @@ projects:
 
 <img src="https://github-profile-trophy.vercel.app/?username=aryangiri03&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" width="100%" />
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=aryangiri03&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" width="60%" />
+<!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=aryangiri03&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" width="60%" /> -->
 
 </div>
 
