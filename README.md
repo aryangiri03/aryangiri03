@@ -231,7 +231,7 @@ projects:
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/aryangiri03/aryangiri03/output/snake.svg)
+![Snake animation](https://raw.githubusercontent.com/aryangiri03/aryangiri03/output/github-contribution-grid-snake.svg)
 
 </div>
 
