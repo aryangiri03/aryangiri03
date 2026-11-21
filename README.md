@@ -348,7 +348,7 @@ AWS, model serving,<br> CI/CD for ML, Docker
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20Visiting!&fontSize=20&fontColor=fff&animation=twinkling&fontAlignY=75"/>
 
-**Made with 💙 by Aryan | Data Scientist & ML Engineer**
+**Made with ❤️ by Aryan | Data Scientist & ML Engineer**
 
 ![](https://hit.yhype.me/github/profile?user_id=90236635)
 
